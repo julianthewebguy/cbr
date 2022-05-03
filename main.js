@@ -53,7 +53,7 @@
         var url = location.href;
         var headerDiv = document.getElementsByClassName('row-fluid')[1];
         console.log(url)
-        if (url == "http://www.coxbeachrealty.com/" || url == "http://www.coxbeachrealty.com/#" ||) {
+        if (url == "https://www.coxbeachrealty.com/" || url == "https://www.coxbeachrealty.com/#" || url == "https://www.coxbeachrealty.com/#Top") {
             headerDiv.classList.add('transparent');
         }
 
@@ -64,7 +64,7 @@
         var url = location.href;
         var headerDiv = document.getElementsByClassName('row-fluid')[2];
         console.log(url)
-        if (url == "http://www.coxbeachrealty.com/" || url == "http://www.coxbeachrealty.com/#" ||) {
+        if (url == "https://www.coxbeachrealty.com/" || url == "https://www.coxbeachrealty.com/#" || url == "https://www.coxbeachrealty.com/#Top") {
             headerDiv.classList.add('fullwidth');
         }
 
